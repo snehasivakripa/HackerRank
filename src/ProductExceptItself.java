@@ -52,11 +52,6 @@ public class ProductExceptItself {
             }
         }
 
-        for(int n:outputArray)
-            System.out.print(n+" ");
-//        for(int i=0;i<nums.length-1;i++){
-//            outputArray[i]=prefixArray[i]*sufixArray[i];
-//        }
         return outputArray;
     }
 
@@ -64,7 +59,7 @@ public class ProductExceptItself {
         ProductExceptItself s = new ProductExceptItself();
         int num[] = {-1,1,0,-3,3};
         s.productExceptSelfBetter(num);
-//        for(int n:s.productExceptSelf(num))
-//        System.out.print(n+ " ");
+        for(int n:s.productExceptSelf(num))
+        System.out.print(n+ " ");
     }
 }
