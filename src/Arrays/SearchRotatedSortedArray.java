@@ -1,4 +1,4 @@
-/*
+package Arrays;/*
 There is an integer array nums sorted in ascending order (with distinct values).
 Prior to being passed to your function, nums is possibly rotated at an unknown pivot
 index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ...,
@@ -39,8 +39,8 @@ public class SearchRotatedSortedArray {
 
     public static void main(String args[]) {
         SearchRotatedSortedArray s = new SearchRotatedSortedArray();
-        int nums[] = {4, 5, 6, 7, 0, 1, 2};
-        System.out.print(s.search(nums, 0));
+        int nums[] = {1};
+        System.out.print(s.search(nums, 1));
 
     }
 }

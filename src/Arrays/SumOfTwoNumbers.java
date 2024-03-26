@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 
 //Program with sum of two integers without '+' or '-'
